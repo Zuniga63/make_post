@@ -28,7 +28,9 @@ body{
     font-size: 1.1rem;
     font-weight: 600;
 }
-
+.post__author__description{
+    margin: 0;
+}
 
 .post__author__ocupation{
     color: #033d99;
