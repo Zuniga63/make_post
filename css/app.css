@@ -8,6 +8,7 @@ body{
 }
 .container{
     padding-top: 80px;
+    padding-bottom: 160px;
 }
 .post{
     width: 600px;
@@ -20,8 +21,12 @@ body{
     background-color: white;
 }
 .post__header, .post__body, .post__footer{
-    padding: 8px 16px;
+    padding: 16px 24px;
+}
 
+.post__header,
+.post__body{
+  border-bottom: 1px solid #eee;
 }
 .post__author{
     margin:0;
@@ -58,5 +63,6 @@ body{
 }
 .post__footer__icon{
     width: 12px;
+    height: 12px;
     padding-right: 1px;
 }
